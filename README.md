@@ -20,8 +20,7 @@
    - Пример ответа:
      ```json
      {
-       "success": true,
-       "thumbnail_url": "http://your-app.com/media/thumbnails/your_video_title.jpg"
+       "image_url": "http://localhost:8000/img/your_video_title.jpg"
      }
      ```
 
@@ -32,10 +31,9 @@
 1. Установите Docker и Docker Compose.
 2. Склонируйте репозиторий: `git clone https://github.com/your-username/your-repo.git`
 3. Перейдите в директорию проекта: `cd your-repo`
-4. Создайте файл `.env` и установите необходимые переменные окружения (например, `DJANGO_SECRET_KEY`, `DEBUG`, и т.д.).
-5. Скачайте образ Docker: `nablascom/cuda-pytorch`
-6. Выполните команду: `docker-compose up -d`
-7. Приложение будет доступно по адресу: `http://localhost:8000`
+4. Скачайте образ Docker: `nablascom/cuda-pytorch`
+5. Выполните команду: `docker-compose up -d`
+6. Приложение будет доступно по адресу: `http://localhost:8000`
 
 ## Запуск для проверки Django проекта
 ```
