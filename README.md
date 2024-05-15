@@ -13,11 +13,11 @@
 1. **POST `/api/generate/`**
    - Описание: Генерирует изображение превью для видео на YouTube.
    - Параметры запроса:
-     - `youtube_url` (строка): Ссылка на видео на YouTube.
+     - `video_url` (строка): Ссылка на видео на YouTube.
    - Пример запроса:
      ```json
      {
-       "youtube_url": "https://www.youtube.com/watch?v=your_video_id"
+       "video_url": "https://www.youtube.com/watch?v=your_video_id"
      }
      ```
    - Пример ответа:
@@ -26,9 +26,6 @@
        "image_url": "http://localhost:8000/img/your_video_title.jpg"
      }
      ```
-
-## Postman Коллекция
-- [Ссылка на Postman коллекцию](https://api.postman.com/collections/14852565-9b013a80-4f7d-420b-8d89-b4cb8500a2f6?access_key=PMAT-01HGF2F9PRT1FVVF0YDHHZZDJ3)
 
 ## Инструкция по развертыванию
 1. Установите Docker и Docker Compose.
