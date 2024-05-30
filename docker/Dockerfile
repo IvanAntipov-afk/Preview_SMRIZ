@@ -1,7 +1,7 @@
 FROM nablascom/cuda-pytorch:latest
 
+COPY . .
 COPY ./src .
-COPY ./requirements.txt .
 
 RUN mkdir img
 RUN chmod -R 777 img
