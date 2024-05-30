@@ -16,6 +16,11 @@ https://www.youtube.com/watch?v=exQV2XrGFLA
 Полученный результат при помощи веб-приложения:
 ![image](https://github.com/IvanAntipov-afk/Preview_SMRIZ/assets/82412788/c2b7aee6-bb2f-4f84-b49e-7bc84a5b3101)
 
+Видео:
+https://www.youtube.com/watch?v=NmlVWK3uoPM
+
+Полученный результат при помощи веб-приложения:
+![image](https://github.com/IvanAntipov-afk/Preview_SMRIZ/assets/82412788/6ff6e201-5804-486d-9071-61b90122a0b6)
 
 ## Методы REST API
 1. **POST `/api/generate/`**
