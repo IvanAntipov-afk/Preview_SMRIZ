@@ -35,6 +35,11 @@ https://www.youtube.com/watch?v=exQV2XrGFLA
      }
      ```
 
+## Обычный запуск для проверки работоспособности Django проекта
+```
+python src/manage.py runserver
+```
+
 ## Инструкция по развертыванию
 1. Установите Docker и Docker Compose.
 2. Склонируйте репозиторий: `git clone https://github.com/your-username/your-repo.git`
@@ -43,7 +48,13 @@ https://www.youtube.com/watch?v=exQV2XrGFLA
 5. Выполните команду: `docker-compose up -d`
 6. Приложение будет доступно по адресу: `http://localhost:8000`
 
-## Обычный запуск для проверки работоспособности Django проекта
-```
-python src/manage.py runserver
-```
+## Реализация CI (непрерывной интеграции)
+CI была добавлена в проект с целью автоматической проверки новых релизов на прохождение теста. Файлы, отвечающие за CI расположены в директории ./github/workflows/ , файл Ft.yml отвечает за автоматическое проведение теста на некорректность ссылки при каждом pull-request.
+
+## Внедрение созданного функционала пакетом
+1. В терминале ввести: `pip install preview`
+2. После будет доступно импортирование функций, например: 
+`from preview.views import get_video_title`
+`from preview.views import translate_text`
+`from preview.views import make_img`
+ **Для такого варианта работы требуется передавать необходимый URL запросом напрямую в функцию в коде. Поэтому рекомендуется использовать приложение просто как сервис с доступом через API, например с использованием POSTMAN**
