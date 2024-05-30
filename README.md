@@ -20,6 +20,7 @@ https://www.youtube.com/watch?v=exQV2XrGFLA
 https://www.youtube.com/watch?v=NmlVWK3uoPM
 
 Полученный результат при помощи веб-приложения:
+
 ![image](https://github.com/IvanAntipov-afk/Preview_SMRIZ/assets/82412788/6ff6e201-5804-486d-9071-61b90122a0b6)
 
 ## Методы REST API
